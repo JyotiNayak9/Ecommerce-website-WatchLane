@@ -17,7 +17,7 @@
     margin: auto;
 }
 
-.icon {
+.form .icon {
     width: 200px;
     float: left;
     height: 70px;
@@ -254,4 +254,22 @@ ul li a:hover {
     text-align: justify;
     margin-right: 459px;
 }
-
+.icon{
+margin-left: 10px;
+}
+.icon .fa-brands {
+   padding-left:16px;
+   align-items: center;
+}
+.fa-facebook{
+    color:blue;
+}
+.fa-instagram{
+    color:rgb(219, 83, 106);
+}
+.fa-google{
+    color:#fff;
+}
+.fa-linkedin{
+    color: darkblue;
+}
