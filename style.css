@@ -137,12 +137,12 @@ ul li a:hover {
 .content .cn {
     width: 200px;
     height: 80px;
-    background: #b76954;
+    background-color: #b76954;
     border: none;
     margin-bottom: 30px;
     margin-left: 10px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 1000px;
     cursor: pointer;
     margin-top: 30px;
 }
@@ -154,7 +154,7 @@ ul li a:hover {
 }
 
 .cn:hover {
-    background-color: antiquewhite;
+    background-color: rgba(250, 215, 215, 0.915);
 }
 
 .form {
@@ -163,7 +163,7 @@ ul li a:hover {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
     position: absolute;
     top: 200px;
-    left: 870px;
+    left: 1000px;
     border-radius: 10px;
     padding: 25px;
 }
@@ -234,6 +234,7 @@ ul li a:hover {
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
+    color:#fff
 }
 
 .form .link a {
@@ -246,6 +247,7 @@ ul li a:hover {
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
+    color: #fff;
 }
 
 .editor {
