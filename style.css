@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0px;
 }
-
-.main {
+.main{
+    background-color: #e5e5e5;
+}
+.navigation{
     width: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(smartwatch.jpg);
     background-position: center;
@@ -54,7 +56,6 @@ ul li {
     font-size: 15px;
     margin-left: 35px;
     margin-top: 43px;
-    font-family: sans-serif;
 }
 
 ul li a {
@@ -119,33 +120,34 @@ ul li a:hover {
     margin: auto;
     color: #fff;
     position: relative;
-    margin-top: 102px;
+    margin-top: 172px;
+    text-align: left;
 }
 
 .content.par {
-    padding-left: 20px;
+    padding-left: 30px;
     padding-bottom: 25px;
     font-family: sans-serif;
     letter-spacing: 1.2px;
     line-height: 30px;
+    margin-left: 20px;
 }
 
 .content h1 {
     font-family: sans-serif;
-    font-size: 30px;
-    padding-left: 20px;
+    font-size: 40px;
+    padding-left: 5px;
     margin-top: 9%;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 /*Join Us Button*/
 .content .cn {
-    width: 105px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     background-color: #b76954;
     border: none;
     margin-bottom: 30px;
-    margin-left: 10px;
     font-size: 20px;
     border-radius: 1000px;
     cursor: pointer;
@@ -277,4 +279,32 @@ margin-left: 10px;
 }
 .fa-linkedin{
     color:#fff;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px;
+    font-family: sans-serif;
+    background-image: url(banner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+#banner h2{
+    color: #fff;
+    font-size: 40px;
+    padding: 10px 0;
+
+}
+span{
+    color: #b76954;
 }
