@@ -42,7 +42,7 @@ padding: 0px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
 }
 #products .pro1 img{
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
 }
 #products .pro1 .des{
