@@ -89,3 +89,76 @@
         padding-top: 20px;
         flex-wrap: wrap;
     }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-family: sans-serif;
+    }
+    footer .col{
+        display:flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    footer h4{
+        font-size: 20px;
+        padding-bottom: 20px;
+        color: #b76954;
+    }
+    footer p{
+        font-size: 14px;
+        margin: 0 0 8px 0 ;
+    }
+    footer a{
+        font-size: 14px;
+        margin: 0 0 8px 0 ;
+        text-decoration: none;
+        color: #222;
+        margin-bottom: 10px;
+    }
+    .follow .fa-brands{
+        padding-right: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .review {
+        width: 250px;
+        position: relative;
+        margin: auto;
+        padding: 25px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .review h2 {
+        width: 300px;
+        font-family: sans-serif;
+        text-align: center;
+        color:#b76954;
+        font-size: 35px;
+    }
+    .formgroup{
+        align-items: center;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    .formgroup label{
+        font-size: 20px;
+        font-weight: 200;
+        padding-bottom: 20px;
+    }
+    .formgroup .formcont{
+        width: 400px;
+        height: 30px;
+        border: #fff;
+      color: #000;
+      font-family: sans-serif;
+      background: transparent;
+      border-bottom: 1px solid #b76954;
+    }
+    
