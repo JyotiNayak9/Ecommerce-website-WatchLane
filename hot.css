@@ -11,7 +11,7 @@
         position: sticky;
         font-family: sans-serif;
         width: 80%;
-        height: 50px;
+        height: 75px;
         margin: auto;
         padding-top: 15px;
         box-shadow: 0 2px 20px rgba(81, 78, 78, 0.915);
@@ -27,8 +27,8 @@
     }
     #products .pro1 {
         width: 20%;
-        min-width: 100px;
-        max-height: 250px;
+        min-width: 200px;
+        max-height: 450px;
         padding: 10px 12px;
         border: 1px solid #cce7d0;
         border-radius: 25px;
@@ -42,8 +42,9 @@
         box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     }
     #products .pro1 img{
-        width: 50%;
-        border-radius: 10px;
+        width: 80%;
+        border-radius: 20px;
+        padding-left: 20px;
     }
     #products .pro1 .des{
         text-align: start;
