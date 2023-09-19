@@ -6,7 +6,7 @@
         background-color: #e9e9ea;
     }
     .header{
-        background-color: #b76954;
+        background-color: #606063;
         text-align:center;
         position: sticky;
         font-family: sans-serif;
@@ -17,7 +17,7 @@
         box-shadow: 0 2px 20px rgba(81, 78, 78, 0.915);
     }
     .main h1{
-        color: #a3786c;
+        color: #b76954;
         font-size: 40px;
         letter-spacing: 2px;
     }
