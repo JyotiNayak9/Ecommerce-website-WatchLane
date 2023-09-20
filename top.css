@@ -2,7 +2,7 @@
 margin:0px;
 padding: 0px;
 }
-.main {
+body {
     background-color: #e9e9ea;
 }
 .header{
@@ -94,6 +94,7 @@ footer{
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 40px;
     font-family: sans-serif;
 }
 footer .col{
@@ -107,9 +108,10 @@ footer h4{
     padding-bottom: 20px;
     color: #b76954;
 }
-footer p{
+footer .col p{
     font-size: 14px;
     margin: 0 0 8px 0 ;
+    color: #222;
 }
 footer a{
     font-size: 14px;
