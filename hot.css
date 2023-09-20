@@ -6,7 +6,7 @@
         background-color: #e9e9ea;
     }
     .header{
-        background-color: #b76954;
+        background-color: #606063;
         text-align:center;
         position: sticky;
         font-family: sans-serif;
@@ -17,7 +17,7 @@
         box-shadow: 0 2px 20px rgba(81, 78, 78, 0.915);
     }
     .main h1{
-        color: #a3786c;
+        color: #b76954;
         font-size: 40px;
         letter-spacing: 2px;
     }
@@ -89,3 +89,40 @@
         padding-top: 20px;
         flex-wrap: wrap;
     }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-family: sans-serif;
+    }
+    footer .col{
+        display:flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    footer h4{
+        font-size: 20px;
+        padding-bottom: 20px;
+        color: #b76954;
+    }
+    footer p{
+        font-size: 14px;
+        margin: 0 0 8px 0 ;
+    }
+    footer a{
+        font-size: 14px;
+        margin: 0 0 8px 0 ;
+        text-decoration: none;
+        color: #222;
+        margin-bottom: 10px;
+    }
+    .follow .fa-brands{
+        padding-right: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
