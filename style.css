@@ -61,11 +61,15 @@ ul li a {
     color: antiquewhite;
     font-family: sans-serif;
     font-weight: bold;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 ul li a:hover {
     color: #b76954;
+}
+
+ul li a i{
+    font-size: 20px;
 }
 
 .search {
@@ -151,7 +155,6 @@ ul li a:hover {
     cursor: pointer;
     margin-top: 30px;
 }
-/*Hover Effect*/
 .content .cn a {
     text-decoration: none;
     color: #000;
@@ -161,7 +164,7 @@ ul li a:hover {
 .cn:hover {
     background-color: rgba(250, 215, 215, 0.915);
 }
-
+/*login form*/
 .form {
     width: 250px;
     height: 380px;
@@ -267,6 +270,73 @@ ul li a:hover {
    align-items: center;
    color:#fff;
 }
+/* top picks section*/
+.section-2{
+	max-width: 80%;
+	margin: auto;
+	padding: 1cm;
+}
+.inner-container-2 h1{
+    font-size: 50px;
+    text-align: center;
+    color: #b76954;
+    font-family: sans-serif;
+}
+.cards-container{
+    display: flex;
+    margin-top: 2rem;
+	width: 100%;
+	overflow-x: scroll;
+}
+.card{
+	min-width: 30%;
+    min-height: 40vh;
+	border-radius: 20px;
+    margin: 20px;
+	flex: 1;
+	text-align: center;
+	box-shadow:  3px 5px 6px #00000066;
+    background-color: #fff;
+}
+.card h2{
+	font-size: 20px;
+    padding:10px;
+}
+.card h3{
+	font-size: 25px;
+    color: #b76954;
+    padding-left: 10px;
+}
+.card-image{
+	width: 90%;
+	border-radius: 20px 20px 0 0;
+}
+.card-btn{
+	padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+	background-color:#b76954;
+	border: #b4b3b3;
+	transition: 0.3s;
+    font-weight: bold;
+}
+.card-btn:hover{
+	background-color: #f9e4e4;
+	color:#222;
+}
+.cards-container::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+  }
+  .cards-container::-webkit-scrollbar-thumb {
+	background:#222;
+	border-radius: 10px;
+  }
+  .cards-container::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  /* offer section*/
 #banner{
     display: flex;
     flex-direction: column;
@@ -311,6 +381,7 @@ span{
     background: #f9e4e4;
     color: #000;
 }
+/* footer */
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -346,6 +417,7 @@ footer a{
     font-size: 20px;
     margin-top: 10px;
 }
+/*customer review */
 .review {
     width: 250px;
     position: relative;
