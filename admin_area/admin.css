@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+body{
+background-color: #b4b3b3;
+}
+.navbar{
+    width: 100%;
+    background-color: #575757;
+    height:80px;
+}
+.logo {
+    color: #fd7e5b;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+.welcome{
+    text-align: right;
+    padding: 20px;
+} 
+.welcome a{
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}

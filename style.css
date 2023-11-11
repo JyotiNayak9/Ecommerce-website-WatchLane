@@ -7,7 +7,7 @@ body{
 }
 .navigation{
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/smartwatch.jpg);
+   background:linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/smartwatch.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -27,12 +27,12 @@ body{
 }
 
 .logo {
-    color: #b76954;
+    color: #fd7e5b;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
     float: left;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-right: 200px;
 }
 
@@ -53,7 +53,7 @@ ul li {
     /* Adjust margin as needed */
     font-size: 15px;
     margin-left: 35px;
-    margin-top: 43px;
+    margin-top: 30px;
 }
 
 ul li a {
@@ -61,7 +61,7 @@ ul li a {
     color: antiquewhite;
     font-family: sans-serif;
     font-weight: bold;
-    transition: 0.2s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 ul li a:hover {
@@ -363,7 +363,7 @@ ul li a i{
 
 }
 span{
-    color: #b76954;
+    color:#fd7e5b;
 }
 #banner button{
     font-size: 16px;
