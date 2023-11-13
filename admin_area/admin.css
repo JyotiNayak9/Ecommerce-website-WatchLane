@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0px;
+    font-family: sans-serif;
+
 }
 body{
 background-color: #b4b3b3;
@@ -9,6 +11,7 @@ background-color: #b4b3b3;
     width: 100%;
     background-color: #575757;
     height:80px;
+    margin-bottom: 10px;
 }
 .logo {
     color: #fd7e5b;
@@ -22,10 +25,45 @@ background-color: #b4b3b3;
 .welcome{
     text-align: right;
     padding: 20px;
+    font-family: sans-serif;
 } 
 .welcome a{
     color: antiquewhite;
     font-size: 20px;
     text-decoration: none;
-    font-family: sans-serif;
+   
+}
+.detail{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.admin a{
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.buttons {
+text-align: center;
+}
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #b76954;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btnn:hover {
+    background: #fff;
+}
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
 }
