@@ -1,0 +1,30 @@
+.form{
+   width: 90%;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.form_cont{
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.btnn {
+    width: 200px;
+    height: 40px;
+    background-color: #b76954;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.4s ease;
+    
+}
+.btnn:hover {
+    background: #fff;
+    color: #b76954;
+}
+.button{
+    text-align: center;
+}

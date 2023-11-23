@@ -26,13 +26,19 @@
 <div class="buttons">
     <button class="btnn"> <a href="#">Insert products</a></button>
     <button class="btnn"> <a href="#">View products</a></button>
-    <button class="btnn"> <a href="insert_categories.php">Insert categories</a></button>
+    <button class="btnn"> <a href="admin.php?insert_category">Insert categories</a></button>
     <button class="btnn"> <a href="#">View categories</a></button>
     <button class="btnn"> <a href="#">All Orders</a></button>
     <button class="btnn"> <a href="#">All Payments</a></button>
     <button class="btnn"> <a href="#">List Users</a></button>
     <button class="btnn"> <a href="#">Logout</a></button>
 </div>
-
+<div class="insertcat">
+<?php    
+if(isset($_GET['insert_category'])){
+    include('insert_categories.php');
+}
+?>
+</div>
 </body>
 </html>

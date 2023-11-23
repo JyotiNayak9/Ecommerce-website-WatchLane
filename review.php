@@ -12,5 +12,4 @@ $comment=$_POST['comment'];
 $query="insert into review (username, email, comment) 
 values('$username','$email','$comment')";
 mysqli_query($con,$query);
-
 ?>

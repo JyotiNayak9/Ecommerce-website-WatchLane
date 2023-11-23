@@ -45,7 +45,6 @@ ul {
     list-style: none;
     padding: 0;
 }
-
 ul li {
     display: inline-block;
     /* Display list items as inline blocks */
@@ -216,7 +215,7 @@ ul li a i{
 .btnn {
     width: 240px;
     height: 40px;
-    background: #b76954;
+    background-color: #b76954;
     border: none;
     margin-top: 30px;
     font-size: 18px;
@@ -238,7 +237,7 @@ ul li a i{
 }
 
 .form .link {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
