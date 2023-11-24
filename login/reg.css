@@ -61,16 +61,19 @@ ul li a i{
 .form label{
     font-size: 15px;
     font-weight: 600;
-   
+    padding-top: 20px;
 }
 .form .control{
     width: 400px;
     height: 30px;
   color: #000;
   font-family: sans-serif;
-  margin-top: 10px;
-  margin-bottom: 30px;
+ 
 }
+.error{
+    margin-bottom: 30px;
+}
+
 .register {
     width: 250px;
     position: relative;
