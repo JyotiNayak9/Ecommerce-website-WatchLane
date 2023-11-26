@@ -1,18 +1,16 @@
 <?php
-// Initialize variables to store user input and error messages
 $full_name = $email = $password = $confirm_password = $contact_number = $address = '';
 $full_name_err = $email_err = $password_err = $confirm_password_err = $contact_number_err = $address_err = '';
 
-// Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Validate username
+    
     if (empty($_POST['full_name'])) {
         $full_name_err =  'Enter your full name';
     } else {
         $full_name = $_POST['full_name'];
     }
 
-    // Validate email
+  
     if (empty($_POST['email'])) {
         $email_err = 'Enter an email address.';
     } elseif (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
@@ -21,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $email = $_POST['email'];
     }
 
-    // Validate password
+   
     if (empty($_POST['password'])) {
         $password_err = 'Enter a password.';
     } elseif (strlen($_POST['password']) < 6) {
@@ -30,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $password = $_POST['password'];
     }
 
-    // Validate confirm password
+   
     if (empty($_POST['confirm_password'])) {
         $confirm_password_err = 'Confirm your password.';
     } elseif ($_POST['password'] != $_POST['confirm_password']) {
@@ -52,13 +50,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     if (empty($username_err) && empty($email_err) && empty($password_err) && empty($confirm_password_err) && empty($contact_number_err) && empty($address_err) ) {
-        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+        $passwordhash = password_hash($password, PASSWORD_DEFAULT);
         require_once "config.php";
         $sql = "INSERT into reg_users(full_name, email, password, contact_number, address) VALUES(?, ?, ?, ?, ?)";
         $stmt = mysqli_stmt_init($conn);
         $preparestmt = mysqli_stmt_prepare($stmt, $sql);
-        echo 'Registration successful!';
+    if($preparestmt){
+        mysqli_stmt_bind_param($stmt,"sssss" ,$full_name, $email, $passwordhash, $contact_number, $address);
+        mysqli_stmt_execute($stmt); 
+        echo"<div>you are registered succesfully</div>";
     }
+    else{
+        echo "<div>something went wrong</div>";
+    }
+}
 }
 ?>
 
@@ -70,6 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" type="text/css" href="reg.css">
     <script src="https://kit.fontawesome.com/17ed295021.js" crossorigin="anonymous"></script>
 </head> 
+<body>
 <div class="navbar">
                     <h2 class="logo"> WaTch LaNe</h2>               
                 <div class="menu">
@@ -123,6 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <button type="submit" class="btnn" value="submit">Register</button>
   </div>
 </form>
+</div>
 </div>
 </body>
 </html>
