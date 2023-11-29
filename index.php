@@ -18,7 +18,7 @@
                         <li> <a href="about1.html">About Us</a></li>
                         <li> <a href="topproducts.html">Top Product</a></li>
                         <li> <a href="hotproduct.html">Hot Product</a></li>
-                        <li> <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+                        <li> <a href="mycart.php"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
                         <li> <a href=""><i class="fa-solid fa-user"></i></a></li>
                     </ul>
                 </div>
@@ -64,34 +64,50 @@
             <div class="inner-container-2">
                 <h1>Our Top Picks</h1>
                 <div class="cards-container">
+                    <form action="mycart.php" method="post">
                     <div class="card">
                         <img class="card-image" src="images/Casio.jpg" alt="">
                         <h2>Fossil Version 3 - Unisex - Leather strap</h2>
                         <h3>$20,000</h3>
                         <button class="card-btn">More</button>
-                        <button class="card-btn">Add To Cart</button>
+                        <button class="card-btn" name="cart">Add To Cart</button>
+                        <input type="hidden" name="Item_name" value="Fossil Version 3">
+                        <input type="hidden" name="Price" value="20000">
                     </div>
+                </form>
+                <form action="mycart.php" method="post">
                     <div class="card">
                         <img class="card-image" src="images/fasttracksmart.jpg" alt="">
                         <h2>Timex-Modern Smart Watch</h2>
                         <h3>$20,000</h3>
                         <button class="card-btn">More</button>
-                        <button class="card-btn">Add To Cart</button>
+                        <button class="card-btn" name="cart">Add To Cart</button>
+                        <input type="hidden" name="Item_name" value="Timex-Modern Smart watch">
+                        <input type="hidden" name="Price" value="15000">
                     </div>
+                </form>
+                   <form action="mycart.php" method="post">
                     <div class="card">
                         <img class="card-image" src="images/Fossil.jpg" alt="">
                         <h2>Modern Women Classical Watch</h2>
                         <h3>$20,000</h3>
                         <button class="card-btn">More</button>
-                        <button class="card-btn">Add To Cart</button>
+                        <button class="card-btn" name="cart">Add To Cart</button>
+                        <input type="hidden" name="Item_name" value="Modern women classical">
+                        <input type="hidden" name="Price" value="12000">
                     </div>
+                </form>
+                <form  action="mycart.php" method="post">
                     <div class="card">
                         <img class="card-image" src="images/fossildigital.jpg" alt="">
-                        <h2>Kids version 3 Gen z watch </h2>
+                        <h2>Kids Version - 3 Gen z Watch </h2>
                         <h3>$20,000</h3>
                         <button class="card-btn">More</button>
-                        <button class="card-btn">Add To Cart</button>
+                        <button class="card-btn" name="cart">Add To Cart</button>
+                        <input type="hidden" name="Item_name" value="Kids Version 3">
+                        <input type="hidden" name="Price" value="5000">
                     </div>
+                </form>
                 </div>
             </div>
         </section>

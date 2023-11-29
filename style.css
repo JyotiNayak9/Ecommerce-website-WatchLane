@@ -285,9 +285,15 @@ ul li a i{
     display: flex;
     margin-top: 2rem;
 	width: 100%;
-	overflow-x: scroll;
+
 }
-.card{
+.cards{
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+.card {
 	min-width: 30%;
     min-height: 40vh;
 	border-radius: 20px;
@@ -308,6 +314,7 @@ ul li a i{
 }
 .card-image{
 	width: 90%;
+    height: ;
 	border-radius: 20px 20px 0 0;
 }
 .card-btn{
